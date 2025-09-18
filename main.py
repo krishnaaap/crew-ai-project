@@ -1,7 +1,7 @@
 # main.py
 # AI Internship Assignment - Debug Challenge
 # Original Project: Financial Document Analyzer using CrewAI
-# Candidate: [Your Name]
+# Candidate: [krishna]
 # Purpose: Debugged & fixed errors in the original repo
 
 """
