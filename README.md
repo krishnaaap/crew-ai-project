@@ -59,3 +59,14 @@ Usage:
 GET / → Health check
 
 POST /analyze → Upload PDF + optional query, returns analysis
+API
+
+GET / → Health check
+
+{
+  "status":"success",
+  "query":"Analyze this financial document",
+  "analysis":{"revenue":"1000000","expenses":"500000","profit":"500000","recommendations":["Buy X","Sell Y"]},
+  "file_processed":"report.pdf"
+}
+
