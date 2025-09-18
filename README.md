@@ -12,6 +12,16 @@ Made run_crew asynchronous to avoid blocking FastAPI.
 
 Optimized prompt for clear JSON output (revenue, expenses, profit, recommendations).
 
+Prompts optimized for realistic financial analysis rather than random hallucinations.
+
+Structured JSON outputs for all tasks for easy parsing.
+
+async_execution=True for all tasks to allow concurrent processing.
+
+verification task now uses verifier agent and actually checks for financial keywords.
+
+Removed unnecessary hallucinations, fake URLs, and contradictory instructions
+
 Added safe file cleanup after processing.
 
 Default query handling improved for empty inputs.
